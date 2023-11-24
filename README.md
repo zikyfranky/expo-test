@@ -1,4 +1,4 @@
-# Expo Issue
+# Expo Issue [#25577](https://github.com/expo/expo/issues/25577)
 
 ## This project is vscode friendly, you can open main.workspace with vscode to quickly get started
 
