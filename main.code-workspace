@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "Backend",
+      "path": "backend"
+    },
+    {
+      "name": "Mobile",
+      "path": "mobile"
+    }
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Mobile Attacher",
+        "cwd": "${workspaceFolder:mobile}",
+        "type": "reactnative",
+        "request": "attach",
+        "port": 19000,
+        "sourceMaps": true
+      },
+      {
+        "name": "Backend",
+        "cwd": "${workspaceFolder:nackend}",
+        "command": "npm run dev",
+        "request": "launch",
+        "type": "node-terminal"
+      }
+    ]
+  }
+}
